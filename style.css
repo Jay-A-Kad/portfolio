@@ -1,0 +1,112 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #575A6A;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    border: 3px solid #7AFF9C;
+    padding: 10px;
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+
+
+}
+
+#intro h1 {
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: monospace;
+    color: #F5FFF3;
+    font-weight: normal;
+}
+
+#intro p {
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #F5FFF3;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#intro a {
+    padding-left: 15px;
+    color: #7BB4FF;
+    font-weight: lighter;
+    font-family: monospace;
+    font-size: large;
+
+
+}
+
+#intro a:hover {
+    color: #F5FFF3;
+}
+
+/* projects css */
+
+#projects hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+#projects h2 {
+    font-family: monospace;
+    color: #F5FFF3;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.all-projects {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.project {
+    border: 1px solid gray;
+    display: block;
+    border-radius: 6px;
+    text-align: left;
+    margin: 50px;
+    padding: 10px;
+    width: 280px;
+    font-size: 20px;
+    box-shadow: 0 3px 10px gray;
+}
+
+.project img {
+    height: 200px;
+    width: 280px;
+    align-items: center;
+}
+
+.project a {
+    align-items: center;
+    font-size: 20px;
+    font-family: monospace;
+    margin-block-start: 8px;
+    margin-block-end: 5px;
+    font-weight: bold;
+}
+
+.project h3:hover {
+    color: #7AFF9C;
+}
+
+.project h6 {
+    font-size: 15px;
+    font-family: monospace;
+}
