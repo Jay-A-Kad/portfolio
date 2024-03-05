@@ -52,7 +52,32 @@ body {
 
 #intro a:hover {
     color: #F5FFF3;
+
 }
+
+
+
+/*toolbox css*/
+
+#tech-stack span {
+    height: 300px;
+    width: 300px;
+    background-color: #F5FFF3;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#tech-stack h2 {
+    font-family: monospace;
+    color: #F5FFF3;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
 
 /* projects css */
 
