@@ -1,6 +1,7 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #575A6A;
+    margin: 0;
 }
 
 .container {
@@ -59,27 +60,179 @@ body {
 
 /*toolbox css*/
 
-#tech-stack span {
-    height: 300px;
-    width: 300px;
-    background-color: #F5FFF3;
-    border-radius: 50%;
-    display: flex;
-    margin: auto;
-    margin-top: 100px;
-}
-
 #tech-stack h2 {
     font-family: monospace;
     color: #F5FFF3;
     margin-left: 50px;
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+#retro-screen {
+    border-radius: 100x;
+    display: grid;
+    grid-template-columns: repeat(20, 30px);
+    grid-template-rows: repeat(20, 30px);
+    background-color: #414141;
+    width: 600px;
+    height: 600px;
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+
+}
+
+.retro-border-1 {
+    border: #595f43 solid 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #595f43;
+    width: 620px;
+    height: 620px;
+    margin: auto;
+}
+
+.retro-border-2 {
+    border: #abb78a solid 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #abb78a;
+    width: 610px;
+    height: 610px;
+    margin: auto;
+
+}
+
+.retro-border-3 {
+    border: #8b966c solid 20px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 5px #8b966c;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+#one-screen {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 21;
+}
+
+
+/* 
+
+.skill-grid {
+    width: 906px;
+    height: 906px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#myskill {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    border: solid #F5FFF3 1px;
+}
+
+/* .skill-circle {
+    height: 300px;
+    width: 300px;
+    background-color: #F5FFF3;
+    border-radius: 50%;
+    margin: auto;
+} */
+
+/* #myskill-vanish {
+    width: 300px;
+    height: 300px;
+    border: #575A6A;
+} */
+
+/* toolbox tech content */
+
+ul {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    list-style-type: none;
+    /* almost white */
+    /* text-shadow: 0 0 3px #, 0 0 10px #F5FFF3, 0 0 20px #F5FFF3, 0 0 30px #F5FFF3; */
+
+}
+
+ul span.folder {
+    cursor: pointer;
+    color: #F5FFF3;
+    text-transform: capitalize;
+}
+
+
+.nested {
+    color: #f0fff8;
+    padding-left: 3rem;
 }
 
 
 
 
+/* making vertical lines */
+ul.nested {
+    position: relative;
+
+}
+
+ul.nested::before {
+    position: absolute;
+    content: "";
+    left: 7.2%;
+    width: 1.5rem;
+    height: 100%;
+    border-left: 1.3px solid #00FF22;
+}
+
+/* addinf style to ul items */
+ul span.folder:hover {
+    color: #A4AAA3;
+
+}
+
+/* addinf style to ul items */
+/* ul span.folder:hover+ul.nested li {
+    color: #A4AAA3;
+
+} */
+
+
+
+/* making horizontal css lines */
+
+/* ul.nested li {
+    position: relative;
+    padding-left: 3rem;
+
+}
+
+ul.nested li::after {
+    position: absolute;
+    content: "";
+    left: 9%;
+    width: 1.5rem;
+    top: .10rem;
+    height: 1rem;
+    border-bottom: 1.3px solid #00FF22;
+} */
+
+
+
+
 /* projects css */
+
+
+
+
 
 #projects hr {
     margin-left: 20px;
