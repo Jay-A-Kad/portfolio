@@ -16,23 +16,25 @@
 <body>
     <!-- Intro-->
     <section id="intro" class="container">
-        <div>
+        <div class="container-info">
             <h1>
-                > Hi, I'm Jay Kadam
+                root@kelpie: Hi, I'm Jay Kadam
+
             </h1>
             <p>
-                I am a developer with some years of experience in app dev
-                I am currently working on few side projects.
-                I like machines and reading books about machines.
+                I am a developer based in mumbai,India with some years of experience in the tech industry,
+                I spend most of my time making weird projects, customizing my terminal and
+                making changes to my ~/.vimrc file .
+                I like making and breaking machines.
             </p>
             <!--nav bar-->
             <nav>
                 <div id="all-navigation">
-                    <a class="menu" href="#about me">About me</a>
-                    <a class="menu" href="#about me">Resume</a>
+                    <!-- <a class="menu" href="#about me">About me</a> -->
                     <a class="menu" href="#projects">projects</a>
+                    <a class="menu" href="#tech-stack">Tech-Stack</a>
+                    <a class="menu" href="#about me">Resume</a>
                     <a class="menu" href="#about me">Blog</a>
-                    <a class="menu" href="#about me">Knowledge Tree</a>
 
                 </div>
             </nav>
@@ -44,7 +46,7 @@
     <!-- about me container-->
     <!-- tech stack container-->
     <section id="tech-stack">
-        <hr>
+        <hr style="margin-top: 100px;">
         <h2>Tech-stack</h2>
 
         <!-- <span></span>
@@ -63,37 +65,71 @@
         <div class="retro-border-1">
             <div class="retro-border-2">
                 <div class="retro-border-3">
-
                     <div id="retro-screen">
+                        <div id="two-screen">
+                            <ul>
+                                <li>
+                                    <span class="folder">Databases</span>
+                                    <ul class="nested">
+                                        <li class="file-webdev">MySQL</li>
+                                        <li class="file-webdev">MongoDB</li>
+                                        <li class="file-webdev">Google Firebase</li>
+                                        <li class="file-webdev">PostgreS</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="folder">Operating System</span>
+                                    <ul class="nested">
+                                        <li class="file-webdev">Windows(10,11)</li>
+                                        <li class="file-webdev">Linux(Arch,Ubuntu)</li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
                         <div id="one-screen">
                             <ul>
                                 <li>
                                     <span class="folder">Web-Dev</span>
                                     <ul class="nested">
-                                        <li class="folder-front-end">Front-End</li>
-                                        <ul class="nested">
-                                            <li class="file-front-end">->HTML</li>
-                                            <li class="file-front-end">->CSS</li>
-                                        </ul>
                                         <li>
-                                            <span class="folder-back-end">Back-End</span>
+                                            <span class="folder">Front-End</span>
                                             <ul class="nested">
-                                                <li class="file-back-end">->Go</li>
-                                                <li class="file-back-end">->Node.js</li>
-                                            </ul>
+                                                <li class="file-front-end">->HTML</li>
+                                                <li class="file-front-end">->CSS</li>
                                         </li>
                                     </ul>
-                                </li>
                                 <li>
-                                    <span class="folder">Web-Dev</span>
+                                    <span class="folder">Back-End</span>
                                     <ul class="nested">
-                                        <li class="file-webdev">HTML</li>
-                                        <li class="file-webdev">CSS</li>
+                                        <li class="file-back-end">->Go</li>
+                                        <li class="file-back-end">->Node.js</li>
                                     </ul>
                                 </li>
                             </ul>
+                            </li>
+                            <li>
+                                <span class="folder">Languages</span>
+                                <ul class="nested">
+                                    <li class="file-webdev">C++</li>
+                                    <li class="file-webdev">Python</li>
+                                    <li class="file-webdev">Golang</li>
+                                    <li class="file-webdev">PHP</li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <span class="folder">Softwares</span>
+                                <ul class="nested">
+                                    <li class="file-webdev">VS Code</li>
+                                    <li class="file-webdev">Android Studio</li>
+                                    <li class="file-webdev">Jupyter Notebook</li>
+                                    <li class="file-webdev">Vim</li>
+                                </ul>
+                            </li>
+                            </ul>
                         </div>
-                        <div id="two-screen"></div>
+
                     </div>
                 </div>
             </div>
@@ -142,7 +178,9 @@
 
 
 
+    <script src="script.js" defer></script>
 
+    </script>
 </body>
 
 </html>
