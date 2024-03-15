@@ -2,7 +2,6 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #575A6A;
     margin: 0;
-
     height: 100vh;
 }
 
@@ -68,6 +67,10 @@ body {
 
 
 /*toolbox css*/
+
+
+
+
 
 #tech-stack h2 {
     font-family: monospace;
