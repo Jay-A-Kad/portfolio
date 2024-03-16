@@ -405,11 +405,10 @@ ul.nested li::after {
 
 }
 
-.projects-circle {
+.planet-outer-ring-3 {
     position: relative;
-    width: 350px;
-    height: 350px;
-    background-color: #FF0090;
+    width: 700px;
+    height: 700px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -417,13 +416,68 @@ ul.nested li::after {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+    background-color: #1C2541;
+    border: 5px solid #DA4167;
 
 }
 
-.projects-circle a {
+.planet-outer-ring-2 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: #1C2541;
+    border: 5px solid #DA4167;
+
+}
+
+.planet-outer-ring-1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: #1C2541;
+    border: 5px solid #DA4167;
+
+}
+
+.mother-planet {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color: #FF0090;
+
+}
+
+
+
+
+
+
+
+.planet-outer-ring-3 a {
     position: absolute;
     color: #00FF22;
-    width: 20px;
+    width: 30px;
     height: 10px;
     border-radius: 50%;
     display: flex;
@@ -438,7 +492,7 @@ ul.nested li::after {
     font-style: normal;
 }
 
-.projects-circle a:hover {
+.planet-outer-ring-3 a:hover {
     color: #FFFF00;
     transition: 500ms linear;
 
@@ -446,33 +500,34 @@ ul.nested li::after {
 
 
 
-.projects-circle a:nth-child(1) {
+.planet-outer-ring-3 a:nth-child(1) {
     top: 50%;
     left: 0;
     transform: translate(-50%, -50%);
+
 }
 
-.projects-circle a:nth-child(2) {
+.planet-outer-ring-3 a:nth-child(2) {
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.projects-circle a:nth-child(3) {
+.planet-outer-ring-3 a:nth-child(3) {
     bottom: 0;
     left: 25%;
     transform: translate(50%, 50%);
 
 }
 
-.projects-circle a:nth-child(4) {
+.planet-outer-ring-3 a:nth-child(4) {
     bottom: 0;
     right: 25%;
     transform: translate(50%, -50%);
 
 }
 
-.projects-circle a:nth-child(5) {
+.planet-outer-ring-3 a:nth-child(5) {
     bottom: 50%;
     right: 0;
     transform: translate(50%, 50%);
