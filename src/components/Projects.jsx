@@ -13,7 +13,7 @@ const projects = [
         images: [
             "Detected-face.png"
         ],
-        code: "https://github.com/Jay-A-Kad/detecting_faces_using_haarcascades"
+        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
     },
     {
         title: "Kelpie Blogs",
@@ -25,7 +25,7 @@ const projects = [
         images: [
             "Kelpie-blogs.gif"
         ],
-        code: "https://github.com/Jay-A-Kad/myBlogs"
+        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/Kelpie-blogs.gif?raw=true"
     },
     {
         title: "SuperMarket Navigation",
@@ -37,7 +37,7 @@ const projects = [
         images: [
             "dashbaord.gif"
         ],
-        code: "https://github.com/Jay-A-Kad/SuperMarket-Navigation-User-App"
+        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/supermarket.gif?raw=true"
     },
     {
         title: "Space Invader using Pygame",
@@ -49,7 +49,7 @@ const projects = [
         images: [
             "Space-Invader.gif"
         ],
-        code: "https://github.com/Jay-A-Kad/spaceInvader"
+        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/Space-Invader.gif?raw=true"
     },
     {
         title: "Retro Snake Using Js",
@@ -61,7 +61,7 @@ const projects = [
         images: [
             "Retro-Snake.gif"
         ],
-        code: "https://github.com/Jay-A-Kad/retro-snake"
+        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/Retro-Snake.gif?raw=true"
     },
 
     {
@@ -74,7 +74,7 @@ const projects = [
         images: [
             "stoic-app.gif"
         ],
-        code: "https://github.com/Jay-A-Kad/stoic-quotes-app"
+        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/stoic-app.gif?raw=true"
     },
     {
         title: "PiRockPaperScissors",

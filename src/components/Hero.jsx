@@ -11,7 +11,7 @@ const Hero = () => {
         <div >
             <div className=' w-full h-screen flex flex-col  items-center mx-auto ' >
                 <motion.div animate={{ y: [100, 200, 0] }}>
-                    <img src='bit-profile.gif' className='w-[300px] lg:w-[600px] mt- border-r border-l border-t border-b border-blue-600 px-4 py-4 lg:px-12 lg:py-12 rounded'></img>
+                    <img src='https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/bit-profile.gif?raw=true' className='w-[300px] lg:w-[600px] mt- border-r border-l border-t border-b border-blue-600 px-4 py-4 lg:px-12 lg:py-12 rounded'></img>
                 </motion.div>
                 <motion.h1 animate={{ y: [-100, 200, 0] }} className='mt-8 font-roboto-fat italic lg:text-[50px]'>hi there,</motion.h1>
                 <motion.h2 animate={{ y: [-100, 200, 0] }} className='font-playfair lg:text-[60px]'>I'm, Jay Kadam</motion.h2>
