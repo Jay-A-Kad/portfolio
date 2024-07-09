@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { ReactTyped } from "react-typed";
 import { motion } from 'framer-motion';
 import About from './About';
+import Navbar from './Navbar';
+
 
 
 
@@ -64,12 +66,12 @@ const Hero = () => {
                 <h3 className='px-2 lg:px-8 font-lora lg:text-[60px]'>My Responsibility.</h3>
                 <p className='px-2 lg:px-20 text-[20px] lg:text-[60px] font-playfair mt-8 lg:mt-32 mx-4 lg:mx-20 '>" As a game developer, full-stack developer, and visual computing enthusiast, my main responsibility is to put my heart and soul into every project. I’m dedicated to understanding my clients' needs and working closely with them to create something truly special. Whether I'm developing an immersive game, building a dynamic web application, or crafting beautiful visuals, I always aim to deliver work that is both technically sound and creatively inspiring. I want to make sure my clients are not just satisfied but genuinely thrilled with the final product, creating digital experiences that leave a lasting impact."</p>
                 <p className='mt-8 lg:mt-32 mx-10 lg:mx-20 lg:px-20 lg:text-[40px]'>Additionally, I also have some experience in customer service which has provided me valuable insights into understanding diverse customer needs. Through my interactions with individuals from North America, Europe, Jamaica, and various Southeast Asian countries, I've honed my ability to address a wide range of IT requirements. These experiences have taught me the importance of empathy and effective communication in meeting client expectations and delivering solutions that truly resonate.</p>
-                <a className=' flex justify-center underline mt-10 lg:mt-32 lg:text-[30px] hover:text-size[200px] hover:scale-125 hover: bg-gradient-to-tr from-violet-500 to-violet-600 bg-clip-text text-transparent hover:cursor-pointer' href='about'>Learn More About Me</a>
+                <a className=' flex justify-center underline mt-10 lg:mt-32 lg:text-[30px] hover:text-size[200px] hover:scale-125 hover: bg-gradient-to-tr from-violet-500 to-violet-600 bg-clip-text text-transparent hover:cursor-pointer' href='./about'>Learn More About Me</a>
                 <div className='h-px bg-gray-300 w-[100%] mt-20 lg:mt-32'></div>
                 <div className=' w-full mx-auto h-screen '>
                     <h1 className='font-lora font-bold text-[30px] lg:text-[60px] mt-20 px-4 lg:px-8 lg:mt-32'>Some of the Projects which I enjoyed creating</h1>
                     <p className='mt-8 lg:mt-32 mx-10 lg:mx-20 lg:px-20 lg:text-[40px]'>These projects are personal to me, stemming from both my university days and personal endeavors. Each one is crafted with the intention of creating something meaningful and useful in my own life. If you have a moment, I’d be delighted to share them with you. you can have a peek👀...</p>
-                    <a className=' flex justify-center underline mt-10 lg:mt-32 lg:text-[30px] lg:mb-48 hover:text-size[200px hover:scale-125 hover: bg-gradient-to-tr from-violet-500 to-violet-600 bg-clip-text text-transparent hover:cursor-pointer' href='projects'>Some More Projects</a>
+                    <a className=' flex justify-center underline mt-10 lg:mt-32 lg:text-[30px] lg:mb-48 hover:text-size[200px hover:scale-125 hover: bg-gradient-to-tr from-violet-500 to-violet-600 bg-clip-text text-transparent hover:cursor-pointer' href='./projects'>Some More Projects</a>
 
 
                     <div className='flex flex-col justify-center items-'>

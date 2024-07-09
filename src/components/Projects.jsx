@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const projects = [
     {
@@ -11,7 +12,7 @@ const projects = [
         text1: "white",
         text2: "black",
         images: [
-            "Detected-face.png"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
         ],
         code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
     },
@@ -25,7 +26,7 @@ const projects = [
         images: [
             "Kelpie-blogs.gif"
         ],
-        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/Kelpie-blogs.gif?raw=true"
+        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
     },
     {
         title: "SuperMarket Navigation",
@@ -49,7 +50,7 @@ const projects = [
         images: [
             "Space-Invader.gif"
         ],
-        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/Space-Invader.gif?raw=true"
+        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Retro-Snake.gif?raw=true"
     },
     {
         title: "Retro Snake Using Js",
@@ -59,9 +60,9 @@ const projects = [
         text1: "white",
         text2: "black",
         images: [
-            "Retro-Snake.gif"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
         ],
-        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/Retro-Snake.gif?raw=true"
+        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png"
     },
 
     {
@@ -72,7 +73,7 @@ const projects = [
         text1: "black",
         text2: "white",
         images: [
-            "stoic-app.gif"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
         ],
         code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/stoic-app.gif?raw=true"
     },
@@ -84,7 +85,7 @@ const projects = [
         text1: "white",
         text2: "black",
         images: [
-            "https://github.com/Jay-A-Kad/PiRockPaperScissors/blob/master/notebooks/model.png?raw=true"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
         ],
         code: "https://github.com/Jay-A-Kad/PiRockPaperScissors?tab=readme-ov-file"
     },
@@ -96,7 +97,7 @@ const projects = [
         text1: "black",
         text2: "white",
         images: [
-            "https://private-user-images.githubusercontent.com/80452034/244273169-99cdec08-4d19-4a42-9d54-a17de98412bd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAyNDYwNjIsIm5iZiI6MTcyMDI0NTc2MiwicGF0aCI6Ii84MDQ1MjAzNC8yNDQyNzMxNjktOTljZGVjMDgtNGQxOS00YTQyLTlkNTQtYTE3ZGU5ODQxMmJkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzA2VDA2MDI0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJiMjUxNGM0NzkyYWZkZGQwNzNlNWQ0ZWY5MzRhMDIxOTJkYWZiYWUzNTk3NTRlNjcwYTZkYjdiOGZmYjExYmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.fskC31d1cAw0R59KY88EpR8fG4iNCEPfZJelsvQz08E"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
         ],
         code: "https://github.com/Jay-A-Kad/Fitme"
     },
@@ -107,60 +108,62 @@ const projects = [
 const Projects = () => {
     return (
         <div>
-            <div className='bg-black py-10'>
-                <h1 className='text-white font-poppins text-[60px] lg:text-[300px] px-4 lg:px-8 '>Projects.</h1>
-            </div>
-            <div className="min-h-screen flex flex-col items-center justify-center">
-                {projects.map((project, index) => (
-                    <motion.div
-                        key={index}
-                        className={`min-h-screen w-full flex items-center justify-center bg-${project.bgGradient}`}
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ duration: 0.5 }}
-                    >
-                        <div className="mx-auto px-6 py-8 flex relative ">
-                            <div className={`flex flex-col items-start justify-center space-y-4 lg:px-40 text-${project.text1}`}>
-                                <h2 className={`text-[28px] lg:text-[40px] font-bold mb-4 text-${project.text1}`}>{project.title}</h2>
-                                <p className={`text-[18px] lg:text-2xl  mb-4 lg:mt-10 text-${project.text1} `}>{project.description}</p>
-                                <div className="flex flex-wrap space-x-2 mb-4">
-                                    {project.tags.map((tag, idx) => (
-                                        <span key={idx} className={`bg-indigo-400 px-3 py-2 rounded-md text-[15px] lg:text-[20px] mt-2 text-black`}>{tag}</span>
+            <div>
+                <div className='bg-black py-10'>
+                    <h1 className='text-white font-poppins text-[60px] lg:text-[300px] px-4 lg:px-8 '>Projects.</h1>
+                </div>
+                <div className="min-h-screen flex flex-col items-center justify-center">
+                    {projects.map((project, index) => (
+                        <motion.div
+                            key={index}
+                            className={`min-h-screen w-full flex items-center justify-center bg-${project.bgGradient}`}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 0.5 }}
+                        >
+                            <div className="mx-auto px-6 py-8 flex relative ">
+                                <div className={`flex flex-col items-start justify-center space-y-4 lg:px-40 text-${project.text1}`}>
+                                    <h2 className={`text-[28px] lg:text-[40px] font-bold mb-4 text-${project.text1}`}>{project.title}</h2>
+                                    <p className={`text-[18px] lg:text-2xl  mb-4 lg:mt-10 text-${project.text1} `}>{project.description}</p>
+                                    <div className="flex flex-wrap space-x-2 mb-4">
+                                        {project.tags.map((tag, idx) => (
+                                            <span key={idx} className={`bg-indigo-400 px-3 py-2 rounded-md text-[15px] lg:text-[20px] mt-2 text-black`}>{tag}</span>
+                                        ))}
+                                    </div>
+                                    <button className={`absolute left-1/2 transform -translate-x-1/2 translate-y-40 h-12 lg:h-20  px-4 lg:py-2 hover:scale-110 duration-500 lg:mt-4 text-[15px] lg:text-[40px] bottom-8 lg:bottom-16 text-${project.text1}`}><a href={project.code}>Code</a></button>
+                                </div>
+                                <div className="absolute top-0 right-0 transform -translate-x-10 -translate-y-40 lg:-translate-x-10 lg:-translate-y-72">
+                                    {project.images.map((image, imgIndex) => (
+                                        <div
+                                            key={imgIndex}
+                                            className="w-40 h-40 lg:w-96 lg:h-96 rounded-full overflow-hidden relative"
+                                        >
+                                            <img
+                                                src={image}
+                                                alt={`Project ${index + 1} Image ${imgIndex + 1}`}
+                                                className="object-cover w-full h-full rounded-full"
+                                            />
+                                        </div>
                                     ))}
                                 </div>
-                                <button className={`absolute left-1/2 transform -translate-x-1/2 translate-y-40 h-12 lg:h-20  px-4 lg:py-2 hover:scale-110 duration-500 lg:mt-4 text-[15px] lg:text-[40px] bottom-8 lg:bottom-16 text-${project.text1}`}><a href={project.code}>Code</a></button>
                             </div>
-                            <div className="absolute top-0 right-0 transform -translate-x-10 -translate-y-40 lg:-translate-x-10 lg:-translate-y-72">
-                                {project.images.map((image, imgIndex) => (
-                                    <div
-                                        key={imgIndex}
-                                        className="w-40 h-40 lg:w-96 lg:h-96 rounded-full overflow-hidden relative"
-                                    >
-                                        <img
-                                            src={image}
-                                            alt={`Project ${index + 1} Image ${imgIndex + 1}`}
-                                            className="object-cover w-full h-full rounded-full"
-                                        />
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </motion.div>
-                ))}
-            </div>
-            <div className='w-full h-screen bg-black text-white'>
-                <h1 className='text-[45px] lg:text-[75px] font-poppins mt-4 px-4 lg:px-12 py-10'>Stay Connected.</h1>
-                <h3 className='text-[25px] font-lora px-4 lg:px-12 mb-10'>Have a Project Idea?</h3>
-                <div className='flex flex-col text-center'>
-                    <a className='text-[25px] font-gamify px-6 hover:scale-125  hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="mailto:jaykad982@gmail.com">Drop Me A Line</Link></a>
-                    <a className='text-[25px] font-gamify px-6 hover:scale-125 hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="https://www.linkedin.com/in/jay-kadam-27720416a/">LinkedIn</Link></a>
-                    <a className='text-[25px] font-gamify px-6 hover:scale-125 hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="https://github.com/Jay-A-Kad">Github</Link></a>
+                        </motion.div>
+                    ))}
                 </div>
-                <a className='flex justify-end mt-10 mr-2 text-[20px] hover:underline hover:duration-500 hover:bg-black hover:text-white' href='/'>| Back to Top | </a>
+                <div className='w-full h-screen bg-black text-white'>
+                    <h1 className='text-[45px] lg:text-[75px] font-poppins mt-4 px-4 lg:px-12 py-10'>Stay Connected.</h1>
+                    <h3 className='text-[25px] font-lora px-4 lg:px-12 mb-10'>Have a Project Idea?</h3>
+                    <div className='flex flex-col text-center'>
+                        <a className='text-[25px] font-gamify px-6 hover:scale-125  hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="mailto:jaykad982@gmail.com">Drop Me A Line</Link></a>
+                        <a className='text-[25px] font-gamify px-6 hover:scale-125 hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="https://www.linkedin.com/in/jay-kadam-27720416a/">LinkedIn</Link></a>
+                        <a className='text-[25px] font-gamify px-6 hover:scale-125 hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="https://github.com/Jay-A-Kad">Github</Link></a>
+                    </div>
+                    <a className='flex justify-end mt-10 mr-2 text-[20px] hover:underline hover:duration-500 hover:bg-black hover:text-white' href='/'>| Back to Top | </a>
 
-                <div className='w-full h-[55%] bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-600 flex justify-center'>
-                    <h1 className='flex justify-center items-center text-[80px] lg:text-[160px] ml-4 font-poppins hover:font-bold'>Jay Kadam</h1>
-                    <h3 className=' text-white flex justify-center items-center text-[20px] lg:text-[40px] ml-2 font-poppins'>2024 Portfolio</h3>
+                    <div className='w-full h-[55%] bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-600 flex justify-center'>
+                        <h1 className='flex justify-center items-center text-[80px] lg:text-[160px] ml-4 font-poppins hover:font-bold'>Jay Kadam</h1>
+                        <h3 className=' text-white flex justify-center items-center text-[20px] lg:text-[40px] ml-2 font-poppins'>2024 Portfolio</h3>
+                    </div>
                 </div>
             </div>
         </div>

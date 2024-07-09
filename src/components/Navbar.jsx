@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import { RiMenu4Line } from "react-icons/ri";
-import { AiOutlineClose } from "react-icons/ai";
+import React, { useState } from 'react';
+import { RiMenu4Line } from 'react-icons/ri';
+import { AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -14,7 +14,6 @@ const Navbar = () => {
             <h1 className='text-[20px] lg:text-[65px] font-bold bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent'>
                 <Link to="/">Jay Kadam.</Link>
             </h1>
-
             <ul className='hidden lg:flex lg:text-[30px] font-poppins'>
                 <li className='p-4 mx-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
                     <Link to="/about">About</Link>
@@ -25,9 +24,10 @@ const Navbar = () => {
                 <li className='p-4 mx-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
                     <Link to="/knowledgetree">Knowledge Tree</Link>
                 </li>
-                <li className='p-4 ml-10 hover:bg-black hover:text-white duration-500 hover:scale-110'><button>
-                    <a href='CV_Jay Kadam.pdf' download="CV_Jay Kadam.pdf">Resume</a>
-                </button>
+                <li className='p-4 ml-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
+                    <button>
+                        <a href='CV_Jay Kadam.pdf' download="CV_Jay Kadam.pdf">Resume</a>
+                    </button>
                 </li>
             </ul>
             <ul className='hidden lg:inline'>
@@ -47,22 +47,22 @@ const Navbar = () => {
                         <AiOutlineClose size={40} className='cursor-pointer' onClick={handleNav} />
                     </div>
                     <ul className='ml-4 uppercase ease-in-out duration-800 mt-20'>
-                        <li className='p-4 border-b font-poppins hover:bg-black hover:text-white duration-500 hover:scale-95 '>
+                        <li className='p-4 border-b font-poppins hover:bg-black hover:text-white duration-500 hover:scale-95'>
                             <Link to="/" onClick={handleNav}>Home</Link>
                         </li>
-                        <li className='p-4 border-b font-poppins hover:bg-black hover:text-white duration-500 hover:scale-95 '>
+                        <li className='p-4 border-b font-poppins hover:bg-black hover:text-white duration-500 hover:scale-95'>
                             <Link to="/about" onClick={handleNav}>About</Link>
                         </li>
-                        <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95 ' >
+                        <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
                             <Link to="/projects" onClick={handleNav}>Projects</Link>
                         </li>
-                        <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95 ' >
+                        <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
                             <Link to="/knowledgetree" onClick={handleNav}>Knowledge Tree</Link>
                         </li>
-                        <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95 '><button>
-                            <a href='CV_Jay Kadam.pdf' download="CV_Jay Kadam.pdf">Resume</a>
-                        </button>
-
+                        <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
+                            <button>
+                                <a href='CV_Jay Kadam.pdf' download="CV_Jay Kadam.pdf">Resume</a>
+                            </button>
                         </li>
                     </ul>
                     <ul className='flex text-[16px] pt-[30%]'>
@@ -82,7 +82,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Navbar;
