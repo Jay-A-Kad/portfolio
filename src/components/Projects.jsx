@@ -5,28 +5,26 @@ import Navbar from './Navbar';
 
 const projects = [
     {
-        title: "Detecting Faces using HaarCacades",
-        description: "This project detects still faces either single face or multiple faces with openCv using haarCascades The code detects number of faces in an image and also displays an overlay of green reactangle over those image and can also detect multiple faces in an image",
-        tags: ["Python", "OpenCV", "Face Detection"],
+        title: "Kelpie Blogs",
+        description: "A personal blog to document your thoughts using react.js",
+        tags: ["React.Js", "Express.Js", "Node.Js", "MongoDB", "HTML5", "CSS3", "Javascript"],
         bgGradient: "black",
         text1: "white",
         text2: "black",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
-        ],
-        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/kelpie-blogs.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
     },
     {
-        title: "Kelpie Blogs",
-        description: "A personal blog to document your thoughts using react.js",
-        tags: ["React.Js", "Express.Js", "Node.Js", "MongoDB", "HTML5", "CSS3", "Javascript"],
+        title: "Detecting Faces using HaarCacades",
+        description: "This project detects still faces either single face or multiple faces with openCv using haarCascades The code detects number of faces in an image and also displays an overlay of green reactangle over those image and can also detect multiple faces in an image",
+        tags: ["Python", "OpenCV", "Face Detection"],
         bgGradient: "white",
         text1: "black",
         text2: "white",
         images: [
-            "Kelpie-blogs.gif"
-        ],
-        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
     },
     {
         title: "SuperMarket Navigation",
@@ -36,8 +34,7 @@ const projects = [
         text1: "white",
         text2: "black",
         images: [
-            "dashbaord.gif"
-        ],
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/supermarket-navigation-2.png?raw=true"],
         code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/supermarket.gif?raw=true"
     },
     {
@@ -48,7 +45,7 @@ const projects = [
         text1: "black",
         text2: "white",
         images: [
-            "Space-Invader.gif"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/space-invader.png?raw=true"
         ],
         code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Retro-Snake.gif?raw=true"
     },
@@ -60,8 +57,7 @@ const projects = [
         text1: "white",
         text2: "black",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
-        ],
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/retro-snake.png?raw=true"],
         code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png"
     },
 
@@ -73,8 +69,7 @@ const projects = [
         text1: "black",
         text2: "white",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
-        ],
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/stoic-app.png?raw=true"],
         code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/stoic-app.gif?raw=true"
     },
     {
