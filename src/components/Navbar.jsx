@@ -22,7 +22,7 @@ const Navbar = () => {
                     <Link to="/projects">Projects</Link>
                 </li>
                 <li className='p-4 mx-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
-                    <Link to="/knowledgetree">Knowledge Tree</Link>
+                    <Link to="/knowledgetree">Boss</Link>
                 </li>
                 <li className='p-4 ml-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
                     <button>
