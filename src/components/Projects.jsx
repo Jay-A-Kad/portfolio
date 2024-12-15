@@ -5,37 +5,15 @@ import Navbar from './Navbar';
 
 const projects = [
     {
-        title: "Kelpie Blogs",
-        description: "A personal blog to document your thoughts using react.js",
-        tags: ["React.Js", "Express.Js", "Node.Js", "MongoDB", "HTML5", "CSS3", "Javascript"],
+        title: "Mother 2D-game using Pygame",
+        description: "Mother is a 2D dialogue-based platformer game. The player( aka Vile Human) embarks on a journey through a 2D underworld, battling mini-bosses and interacting with NPC characters along the way, all while seeking to reunite with his mother.",
+        tags: ["Python3", "Pygame", "Adobe Creative Suite", "LibreSprite"],
         bgGradient: "black",
         text1: "white",
         text2: "black",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/kelpie-blogs.png?raw=true"],
-        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
-    },
-    {
-        title: "Detecting Faces using HaarCacades",
-        description: "This project detects still faces either single face or multiple faces with openCv using haarCascades The code detects number of faces in an image and also displays an overlay of green reactangle over those image and can also detect multiple faces in an image",
-        tags: ["Python", "OpenCV", "Face Detection"],
-        bgGradient: "white",
-        text1: "black",
-        text2: "white",
-        images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"],
-        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
-    },
-    {
-        title: "SuperMarket Navigation",
-        description: "A modern approach towards traditional shopping experience , This App is a part of my final year project which simulates as an online shopping SuperStore with store categpry such as Groccery, Clothing and Electronics. The Authentication is done using fAuth and is stored inside firestore.",
-        tags: ["Java", "C#", "HTML5", "CSS3", "Javascript", "Firebase", "Android Studio", "Unity3D", "Path Finding"],
-        bgGradient: "black",
-        text1: "white",
-        text2: "black",
-        images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/supermarket-navigation-2.png?raw=true"],
-        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/supermarket.gif?raw=true"
+            "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/mother"
     },
     {
         title: "Space Invader using Pygame",
@@ -60,6 +38,53 @@ const projects = [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/retro-snake.png?raw=true"],
         code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png"
     },
+    {
+        title: "SuperMarket Navigation",
+        description: "A modern approach towards traditional shopping experience , This App is a part of my final year project which simulates as an online shopping SuperStore with store categpry such as Groccery, Clothing and Electronics. The Authentication is done using fAuth and is stored inside firestore.",
+        tags: ["Java", "C#", "HTML5", "CSS3", "Javascript", "Firebase", "Android Studio", "Unity3D", "Path Finding"],
+        bgGradient: "white",
+        text1: "black",
+        text2: "white",
+        images: [
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/supermarket-navigation-2.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/supermarket.gif?raw=true"
+    },
+    {
+        title: "PiRockPaperScissors",
+        description: "Play the classic game of Rock Paper Scissors with your Raspberry Pi with Machine Learning.",
+        tags: ["Numpy", "CNN", "Computer Vision", "Machine Learning"],
+        bgGradient: "black",
+        text1: "white",
+        text2: "black",
+        images: [
+            "public/rockpaperscissors.jpg"
+        ],
+        code: "https://github.com/Jay-A-Kad/PiRockPaperScissors?tab=readme-ov-file"
+    },
+    {
+        title: "Detecting Faces using HaarCacades",
+        description: "This project detects still faces either single face or multiple faces with openCv using haarCascades The code detects number of faces in an image and also displays an overlay of green reactangle over those image and can also detect multiple faces in an image",
+        tags: ["Python", "OpenCV", "Face Detection"],
+        bgGradient: "white",
+        text1: "black",
+        text2: "white",
+        images: [
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
+    },
+    {
+        title: "Kelpie Blogs",
+        description: "A personal blog to document your thoughts using react.js",
+        tags: ["React.Js", "Express.Js", "Node.Js", "MongoDB", "HTML5", "CSS3", "Javascript"],
+        bgGradient: "black",
+        text1: "white",
+        text2: "black",
+        images: [
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/kelpie-blogs.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
+    },
+
+
 
     {
         title: "Stoic Qutes App",
@@ -72,27 +97,16 @@ const projects = [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/stoic-app.png?raw=true"],
         code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/stoic-app.gif?raw=true"
     },
-    {
-        title: "PiRockPaperScissors",
-        description: "Play the classic game of Rock Paper Scissors with your Raspberry Pi with Machine Learning.",
-        tags: ["Numpy", "CNN", "Computer Vision", "Machine Learning"],
-        bgGradient: "black",
-        text1: "white",
-        text2: "black",
-        images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
-        ],
-        code: "https://github.com/Jay-A-Kad/PiRockPaperScissors?tab=readme-ov-file"
-    },
+
     {
         title: "FitMe App",
         description: "This project is a Weight tracker app that takes current weight and stores inside firebase realtime Db with a unique hash id with weight and current timestamp and day as it's child and the greetings change according to the current time.",
         tags: ["Python", "Kivy", "Firebase", "Matplot lib"],
-        bgGradient: "white",
-        text1: "black",
-        text2: "white",
+        bgGradient: "black",
+        text1: "white",
+        text2: "black",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
+            "https://github.com/Jay-A-Kad/Fitme/blob/master/Snaps/Home.png?raw=true"
         ],
         code: "https://github.com/Jay-A-Kad/Fitme"
     },
@@ -105,7 +119,7 @@ const Projects = () => {
         <div>
             <div>
                 <div className='bg-black py-10'>
-                    <h1 className='text-white font-poppins text-[60px] lg:text-[300px] px-4 lg:px-8 '>Projects.</h1>
+                    <h1 className='text-white font-poppins text-[60px] lg:text-[150px] px-4 lg:px-8 '>Projects.</h1>
                 </div>
                 <div className="min-h-screen flex flex-col items-center justify-center">
                     {projects.map((project, index) => (

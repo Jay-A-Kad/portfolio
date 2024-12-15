@@ -15,15 +15,11 @@ const Navbar = () => {
                 <Link to="/">Jay Kadam.</Link>
             </h1>
             <ul className='hidden lg:flex lg:text-[30px] font-poppins'>
-                <li className='p-4 mx-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
-                    <Link to="/about">About</Link>
-                </li>
+
                 <li className='p-4 mx-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
                     <Link to="/projects">Projects</Link>
                 </li>
-                <li className='p-4 mx-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
-                    <Link to="/knowledgetree">Boss</Link>
-                </li>
+
                 <li className='p-4 ml-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
                     <button>
                         <a href='CV_Jay Kadam.pdf' download="CV_Jay Kadam.pdf">Resume</a>
@@ -50,15 +46,11 @@ const Navbar = () => {
                         <li className='p-4 border-b font-poppins hover:bg-black hover:text-white duration-500 hover:scale-95'>
                             <Link to="/" onClick={handleNav}>Home</Link>
                         </li>
-                        <li className='p-4 border-b font-poppins hover:bg-black hover:text-white duration-500 hover:scale-95'>
-                            <Link to="/about" onClick={handleNav}>About</Link>
-                        </li>
+
                         <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
                             <Link to="/projects" onClick={handleNav}>Projects</Link>
                         </li>
-                        <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
-                            <Link to="/knowledgetree" onClick={handleNav}>Knowledge Tree</Link>
-                        </li>
+
                         <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
                             <button>
                                 <a href='CV_Jay Kadam.pdf' download="CV_Jay Kadam.pdf">Resume</a>
