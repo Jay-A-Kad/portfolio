@@ -23,7 +23,7 @@ const projects = [
         text1: "black",
         text2: "white",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/space-invader.png?raw=true"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/93020256-0b30-4ef1-ae1a-db4fc618933f.jpeg?raw=true"
         ],
         code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Retro-Snake.gif?raw=true"
     },
@@ -35,7 +35,7 @@ const projects = [
         text1: "white",
         text2: "black",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/retro-snake.png?raw=true"],
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/e34c3804-f512-49ce-ae4c-22bfe89d6c73.jpeg?raw=true"],
         code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png"
     },
     {
@@ -46,7 +46,7 @@ const projects = [
         text1: "black",
         text2: "white",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/supermarket-navigation-2.png?raw=true"],
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/08d62276-94ad-4e03-bfde-c50bc92f7d5a.jpeg?raw=true"],
         code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/supermarket.gif?raw=true"
     },
     {
@@ -57,7 +57,7 @@ const projects = [
         text1: "white",
         text2: "black",
         images: [
-            "public/rockpaperscissors.jpg"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/6472b524-1e53-4493-a30f-e3382641d192.jpeg?raw=true"
         ],
         code: "https://github.com/Jay-A-Kad/PiRockPaperScissors?tab=readme-ov-file"
     },
@@ -94,7 +94,7 @@ const projects = [
         text1: "black",
         text2: "white",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/stoic-app.png?raw=true"],
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/27f74010-a01d-4016-a0f9-30c495e7ae3e.jpeg?raw=true"],
         code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/stoic-app.gif?raw=true"
     },
 

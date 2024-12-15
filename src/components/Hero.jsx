@@ -67,20 +67,20 @@ const Hero = () => {
                         <h1 className='text-[100px] lg:text-[200px] text-white font-lora px-4 lg:px-20'>About Me.</h1>
                     </div>
                     <div className='about-me flex flex-col text-end -translate-y-40 '>
-                        <p className='text-center -translate-y--20 lg:mt-60 px-2 lg:px-28 text-[22px] lg:text-[30px] font-poppins'>
+                        <p className='text-center -translate-y--20 mt-60 lg:mt-60 px-2 lg:px-28 text-[20px] lg:text-[30px] font-poppins'>
                             Currently, I am in Clemson, SC, pursuing an M.S. in Computer Science
                             <span className='font-lora font-bold'>💻</span> with a specialization in Visual Computing at
                             <span className='font-lora font-bold'> Clemson University</span> <span className='font-lora font-bold'>🎓</span>
                         </p>
 
-                        <h1 className='text-center mt-20 lg:mt-40 font-poppins font-bold text-[30px] lg:text-[30px] px-10'>
+                        <h1 className='text-center mt-20 lg:mt-40 font-poppins font-bold text-[18px] lg:text-[30px] px-10'>
                             When I am not Programming, I like Hiking 🏞️, Table Tennis 🏓, Cycling 🚴‍♂️, creating Games 🎮, and binge-watching TV-shows 🎬
                         </h1>
 
                         <p className='text-center italic underline lg:text-[30px] lg:mt-20'>My recent binge Arcane.</p>
                     </div>
                     <div className='disciplines bg-black w-full relative overflow-hidden'>
-                        <h1 className='text-start font-poppins font-bold text-[45px] lg:text-[55px] text-white py-4 px-4 lg:py-16 lg:px-16'>My Disciplines.</h1>
+                        <h1 className='text-start font-poppins font-bold text-[35px] lg:text-[55px] text-white py-4 px-4 lg:py-16 lg:px-16'>My Disciplines.</h1>
                         <p className='text-white px-10 mt-10 text-[20px] lg:mt-28 lg:text-[35px] lg:px-60'>I have a deep passion for Game Development, Visual Computing, and Web Development. With a solid foundation in computer graphics and interactive design, I love creating immersive and visually stunning experiences. My journey in game development has been a source of both creativity and technical growth, while my work in visual computing lets me bring intricate details to life. In web development, I enjoy building dynamic, responsive, and user-friendly applications that explore new possibilities. By combining these disciplines, I aim to craft engaging and innovative digital experiences that captivate and inspire.</p>
                         <motion.div className=' w-full h-screen items-center mx-auto lg:mt-[120px]' >
                             <div className='w-full h-screen bg-black text-white'>
