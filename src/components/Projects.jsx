@@ -23,7 +23,7 @@ const projects = [
         text1: "black",
         text2: "white",
         images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Screenshot%202024-12-15%20at%207.02.35%E2%80%AFPM.png?raw=true"
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Screenshot%202024-11-13%20at%201.50.53%E2%80%AFPM.png?raw=true"
         ],
         // code: "https://github.com/Jay-A-Kad/Fitme"
     },
