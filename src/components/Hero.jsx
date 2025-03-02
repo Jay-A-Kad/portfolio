@@ -19,45 +19,43 @@ const Hero = () => {
                 <div>
                     <ReactTyped
                         strings={[
-                            '<span class="font-roboto-fat text-[30px] lg:text-[80px] bg-gradient-to-r from-fuchsia-500 to-pink-500 bg-clip-text text-transparent">Full-Stack Developer</span>',
                             '<span class="font-gamify text-[30px] lg:text-[80px] bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent">Game Developer</span>',
-                            '<span class="font-lora text-[30px] lg:text-[80px] bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">Visual Computing</span>'
+                            '<span class="font-lora text-[30px] lg:text-[80px] bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent">XR Enthusiast</span>'
                         ]}
                         typeSpeed={80}
                         backSpeed={50}
                         loop
                     />
-                </div>
-            </div>
+                </div >
+            </div >
             <div className='absolute bottom-0 w-full overflow-hidden bg-white bg-opacity-15 '>
                 <div className='marquee-container'>
                     <div className='marquee-content text-[20px] lg:text-[35px] font-bold bg-gradient-to-tr from-teal-200 to-emerald-600 bg-clip-text text-transparent'>
-                        <span className='mx-2'>| Frontend | </span>
-                        <span className='mx-2'>Backend | </span>
-                        <span className='mx-2'>Database Management | </span>
-                        <span className='mx-2'>DevOps | </span>
-                        <span className='mx-2'>Game Mathematics | </span>
-                        <span className='mx-2'>Game Physics | </span>
-                        <span className='mx-2'>Unreal Engine | </span>
-                        <span className='mx-2'>Computer Graphics | </span>
+                        <span className='mx-2'>| Unity3D |</span>
+                        <span className='mx-2'>Embodied Conversational Agents |</span>
+                        <span className='mx-2'>Game Physics |</span>
+                        <span className='mx-2'>Virtual Humans |</span>
+                        <span className='mx-2'>Maya |</span>
+                        <span className='mx-2'>Computer Graphics |</span>
                         <span className='mx-2'>OpenGL | </span>
-                        <span className='mx-2'>| Frontend | </span>
-                        <span className='mx-2'>Backend | </span>
-                        <span className='mx-2'>Database Management | </span>
-                        <span className='mx-2'>DevOps | </span>
-                        <span className='mx-2'>Game Mathematics | </span>
-                        <span className='mx-2'>Game Physics | </span>
-                        <span className='mx-2'>Unreal Engine | </span>
-                        <span className='mx-2'>Computer Graphics | </span>
-                        <span className='mx-2'>OpenGL | </span>
-                        <span className='mx-2'>| Frontend | </span>
-                        <span className='mx-2'>Backend | </span>
-                        <span className='mx-2'>Database Management | </span>
-                        <span className='mx-2'>DevOps | </span>
-                        <span className='mx-2'>Game Mathematics | </span>
-                        <span className='mx-2'>Game Physics | </span>
-                        <span className='mx-2'>Unreal Engine | </span>
-                        <span className='mx-2'>Computer Graphics | </span>
+                        <span className='mx-2'>Virtual Reality  | </span>
+
+                        <span className='mx-2'>Unity3D |</span>
+                        <span className='mx-2'>Embodied Conversational Agents |</span>
+                        <span className='mx-2'>Game Physics |</span>
+                        <span className='mx-2'>Virtual Humans |</span>
+                        <span className='mx-2'>Maya |</span>
+                        <span className='mx-2'>Computer Graphics |</span>
+                        <span className='mx-2'>OpenGL |</span>
+                        <span className='mx-2'>Virtual Reality |</span>
+
+                        <span className='mx-2'>Unity3D |</span>
+                        <span className='mx-2'>Embodied Conversational Agents |</span>
+                        <span className='mx-2'>Game Physics |</span>
+                        <span className='mx-2'>Virtual Humans |</span>
+                        <span className='mx-2'>Maya |</span>
+                        <span className='mx-2'>Computer Graphics |</span>
+                        <span className='mx-2'>OpenGL |</span>
                     </div>
                 </div>
             </div>
@@ -74,14 +72,14 @@ const Hero = () => {
                         </p>
 
                         <h1 className='text-center mt-20 lg:mt-40 font-poppins font-bold text-[18px] lg:text-[30px] px-10'>
-                            When I am not Programming, I like Hiking 🏞️, Table Tennis 🏓, Cycling 🚴‍♂️, creating Games 🎮, and binge-watching TV-shows 🎬
+                            When I am not Programming, I create narrative driven stories for games, Hiking 🏞️, Table Tennis 🏓, and binge-watching TV-shows 🎬
                         </h1>
 
-                        <p className='text-center italic underline lg:text-[30px] lg:mt-20'>My recent binge Arcane.</p>
+                        <p className='text-center italic underline lg:text-[30px] lg:mt-20'>My recent binge 3 Body Problem.</p>
                     </div>
                     <div className='disciplines bg-black w-full relative overflow-hidden'>
                         <h1 className='text-start font-poppins font-bold text-[35px] lg:text-[55px] text-white py-4 px-4 lg:py-16 lg:px-16'>My Disciplines.</h1>
-                        <p className='text-white px-10 mt-10 text-[20px] lg:mt-28 lg:text-[35px] lg:px-60'>I have a deep passion for Game Development, Visual Computing, and Web Development. With a solid foundation in computer graphics and interactive design, I love creating immersive and visually stunning experiences. My journey in game development has been a source of both creativity and technical growth, while my work in visual computing lets me bring intricate details to life. In web development, I enjoy building dynamic, responsive, and user-friendly applications that explore new possibilities. By combining these disciplines, I aim to craft engaging and innovative digital experiences that captivate and inspire.</p>
+                        <p className='text-white px-10 mt-10 text-[20px] lg:mt-28 lg:text-[35px] lg:px-60'>"I'm passionate about Game Development, XR, and Visual Computing, with a strong foundation in computer graphics and interactive design. I thrive on creating immersive, visually striking experiences that push the boundaries of interactivity. My journey in game development fuels both my creativity and technical expertise, while my work in XR allows me to craft engaging, spatially-aware worlds. I also enjoy exploring WebXR and dynamic web applications that enhance digital experiences. By blending these disciplines, I strive to build innovative and captivating interactive worlds that inspire and engage users"</p>
                         <motion.div className=' w-full h-screen items-center mx-auto lg:mt-[120px]' >
                             <div className='w-full h-screen bg-black text-white'>
                                 <h1 className='text-[45px] lg:text-[75px] font-poppins mt-4 px-4 lg:px-12 py-10'>Stay Connected.</h1>
@@ -104,7 +102,7 @@ const Hero = () => {
             </div>
 
 
-        </div>
+        </div >
     );
 }
 

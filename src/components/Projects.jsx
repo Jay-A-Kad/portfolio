@@ -13,6 +13,41 @@ const projects = [
         text2: "black",
         images: [
             "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/mother",
+        tailer: "https://www.youtube.com/embed/WvCSbRjaGr8"
+    },
+    {
+        title: "Alien Mayhem",
+        description: "In Mayhem, you are humanity’s last line of defense against the relentless Bleep-Bloops, an invasive alien species hellbent on conquering Earth. Armed with an arsenal of high-tech weapons, you’ll blast through waves of extraterrestrial threats in fast-paced, adrenaline-fueled space battles. Navigate asteroid fields, upgrade your gear, and unleash devastating firepower to push back the invasion. As the alien swarm grows stronger, only your skills and strategy can turn the tide. Can you survive the mayhem and save Earth from total annihilation?",
+        tags: ["Unity3D", "Unity Asset Store", "URP", "Physics-Based-Collision"],
+        bgGradient: "white",
+        text1: "black",
+        text2: "white",
+        images: [
+            "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/mother"
+    },
+    {
+        title: "Coin Rush: The Demon Curse",
+        description: "Coin Rush TDC places you in the role of a once-greedy explorer who stumbles upon a mysterious temple, unknowingly triggering an ancient curse set by a demon thief. Transformed into a beast, you must navigate treacherous ruins, evade deadly traps, and collect mystical gold coins to break the curse. Each coin brings you closer to redemption, but supernatural guardians and dark forces stand in your way. With time running out, only your wit and agility can help you escape your doomed fate. Will you reclaim your humanity or be lost to the temple forever?",
+        tags: ["Unity3D", "Unity Asset Store", "Mixamo", "HDRP", "Event-Driven", "Third-Person POV"],
+        bgGradient: "black",
+        text1: "white",
+        text2: "black",
+        images: [
+            "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/CoinRush",
+        trailer: "https://www.youtube.com/embed/Je6-MBsY3f8"
+    },
+    {
+        title: "Cel Shading using OpenGL",
+        description: "The project aims to implement a toon shading (cel shading) technique with a 4-channel stylized highlighting and edge detection, aiming to create visually appealing and illustrative rendering effects for 3D objects such as spheres, torus, and stylized pineapple which are rotating along their axis.",
+        tags: ["Unity3D", "Unity Asset Store", "Mixamo", "HDRP", "Event-Driven", "Third-Person POV"],
+        bgGradient: "white",
+        text1: "black",
+        text2: "white",
+        images: [
+            "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
         code: "https://github.com/Jay-A-Kad/mother"
     },
     {
@@ -26,6 +61,7 @@ const projects = [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Screenshot%202024-11-13%20at%201.50.53%E2%80%AFPM.png?raw=true"
         ],
         // code: "https://github.com/Jay-A-Kad/Fitme"
+        trailer: "https://www.youtube.com/embed/V74prh-wY0c"
     },
     {
         title: "Space Invader using Pygame",
@@ -37,7 +73,7 @@ const projects = [
         images: [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/93020256-0b30-4ef1-ae1a-db4fc618933f.jpeg?raw=true"
         ],
-        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Retro-Snake.gif?raw=true"
+        code: "https://github.com/Jay-A-Kad/spaceInvader"
     },
     {
         title: "Retro Snake Using Js",
@@ -48,7 +84,7 @@ const projects = [
         text2: "white",
         images: [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/e34c3804-f512-49ce-ae4c-22bfe89d6c73.jpeg?raw=true"],
-        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png"
+        code: "https://github.com/Jay-A-Kad/retro-snake"
     },
     {
         title: "SuperMarket Navigation",
@@ -59,7 +95,7 @@ const projects = [
         text2: "black",
         images: [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/08d62276-94ad-4e03-bfde-c50bc92f7d5a.jpeg?raw=true"],
-        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/supermarket.gif?raw=true"
+        code: "https://github.com/Jay-A-Kad/SuperMarket-Navigation-User-App"
     },
     {
         title: "PiRockPaperScissors",
@@ -71,7 +107,7 @@ const projects = [
         images: [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/6472b524-1e53-4493-a30f-e3382641d192.jpeg?raw=true"
         ],
-        code: "https://github.com/Jay-A-Kad/PiRockPaperScissors?tab=readme-ov-file"
+        code: "https://github.com/Jay-A-Kad/PiRockPaperScissors"
     },
     {
         title: "Detecting Faces using HaarCacades",
@@ -82,7 +118,7 @@ const projects = [
         text2: "black",
         images: [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"],
-        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Detected-face.png?raw=true"
+        code: "https://github.com/Jay-A-Kad/detecting_faces_using_haarcascades"
     },
     {
         title: "Kelpie Blogs",
@@ -93,7 +129,7 @@ const projects = [
         text2: "white",
         images: [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/kelpie-blogs.png?raw=true"],
-        code: "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/logo192.png?raw=true"
+        code: "https://github.com/Jay-A-Kad/myBlogs"
     },
 
 
@@ -107,7 +143,7 @@ const projects = [
         text2: "black",
         images: [
             "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/27f74010-a01d-4016-a0f9-30c495e7ae3e.jpeg?raw=true"],
-        code: "https://github.com/Jay-A-Kad/MyPortfolio/blob/master/public/stoic-app.gif?raw=true"
+        code: "https://github.com/Jay-A-Kad/stoic-quotes-app"
     },
 
     {
@@ -129,54 +165,63 @@ const projects = [
 const Projects = () => {
     return (
         <div>
-            <div>
-                <div className='bg-black py-10'>
-                    <h1 className='text-white font-poppins text-[60px] lg:text-[150px] px-4 lg:px-8 '>Projects.</h1>
-                </div>
-                <div className="min-h-screen flex flex-col items-center justify-center">
-                    {projects.map((project, index) => (
-                        <motion.div
-                            key={index}
-                            className={`min-h-screen w-full flex items-center justify-center bg-${project.bgGradient}`}
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            transition={{ duration: 0.5 }}
-                        >
-                            <div className="mx-auto px-6 py-8 flex relative ">
-                                <div className={`flex flex-col items-start justify-center space-y-4 lg:px-40 text-${project.text1}`}>
-                                    <h2 className={`text-[28px] lg:text-[40px] font-bold mb-4 text-${project.text1}`}>{project.title}</h2>
-                                    <p className={`text-[15px] lg:text-2xl  mb-4 lg:mt-10 text-${project.text1} `}>{project.description}</p>
-                                    <div className="flex flex-wrap space-x-2 mb-4">
-                                        {project.tags.map((tag, idx) => (
-                                            <span key={idx} className={`bg-indigo-400 px-3 py-2 rounded-md text-[15px] lg:text-[20px] mt-2 text-black`}>{tag}</span>
-                                        ))}
-                                    </div>
-                                    <button className={`absolute left-1/2 transform -translate-x-1/2 translate-y-40 h-12 lg:h-20  px-4 lg:py-2 hover:scale-110 duration-500 lg:mt-4 text-[15px] lg:text-[40px] bottom-8 lg:bottom-16 text-${project.text1}`}><a href={project.code}>Source Code</a></button>
-                                </div>
-                                <div className="absolute top-0 right-0 transform -translate-x-10 -translate-y-40 lg:-translate-x-10 lg:-translate-y-72">
-                                    {project.images.map((image, imgIndex) => (
-                                        <div
-                                            key={imgIndex}
-                                            className="w-40 h-40 lg:w-96 lg:h-96 rounded-full overflow-hidden relative"
-                                        >
-                                            <img
-                                                src={image}
-                                                alt={`Project ${index + 1} Image ${imgIndex + 1}`}
-                                                className="object-cover w-full h-full rounded-full"
-                                            />
-                                        </div>
+            <div className='bg-black py-10'>
+                <h1 className='text-white font-poppins text-[60px] lg:text-[150px] px-4 lg:px-8 '>Projects.</h1>
+            </div>
+            <div className="min-h-screen flex flex-col items-center justify-center">
+                {projects.map((project, index) => (
+                    <motion.div
+                        key={index}
+                        className={`min-h-screen w-full flex items-center justify-center bg-${project.bgGradient}`}
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <div className="mx-auto px-6 py-8 flex relative ">
+                            <div className={`flex flex-col items-start justify-center space-y-4 lg:px-40 text-${project.text1}`}>
+                                <h2 className={`text-[28px] lg:text-[40px] font-bold mb-4 text-${project.text1}`}>{project.title}</h2>
+                                <p className={`text-[15px] lg:text-2xl mb-4 lg:mt-10 text-${project.text1}`}>{project.description}</p>
+                                <div className="flex flex-wrap space-x-2 mb-4">
+                                    {project.tags.map((tag, idx) => (
+                                        <span key={idx} className="bg-indigo-400 px-3 py-2 rounded-md text-[15px] lg:text-[20px] mt-2 text-black">{tag}</span>
                                     ))}
                                 </div>
+                                <button className={`absolute left-1/2 transform -translate-x-1/2 translate-y-40 h-12 lg:h-20 px-4 lg:py-2 hover:scale-110 duration-500 lg:mt-4 text-[15px] lg:text-[40px] bottom-8 lg:bottom-16 text-${project.text1}`}>
+                                    <a href={project.code}>Source Code</a>
+                                </button>
                             </div>
-                        </motion.div>
-                    ))}
-                </div>
+                            {/* <div className="absolute transform -translate-x-10 -translate-y-40 lg:-translate-x-10 lg:-translate-y-72">
+                                {project.images.map((image, imgIndex) => (
+                                    <div key={imgIndex} className="w-40 h-40 lg:w-96 lg:h-96 rounded-full overflow-hidden relative">
+                                        <img src={image} alt={`Project ${index + 1} Image ${imgIndex + 1}`} className="object-cover w-full h-full rounded-full" />
+                                    </div>
+                                ))}
+                            </div> */}
+                        </div>
+                        {project.trailer && (
+                            <div className="w-full flex justify-center mt-10 mr-10">
+                                <iframe
+                                    width="660"
+                                    height="415"
+                                    src={project.trailer}
+                                    title="Project Trailer"
+                                    frameBorder="0"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+
+                        )}
+
+                    </motion.div>
+                ))}
+            </div>
+            <motion.div className=' w-full h-screen items-center mx-auto lg:mt-[120px]' >
                 <div className='w-full h-screen bg-black text-white'>
                     <h1 className='text-[45px] lg:text-[75px] font-poppins mt-4 px-4 lg:px-12 py-10'>Stay Connected.</h1>
                     <h3 className='text-[25px] font-lora px-4 lg:px-12 mb-10'>Have a Project Idea?</h3>
                     <div className='flex flex-col text-center'>
                         <a className='text-[25px] font-gamify px-6 hover:scale-125  hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="mailto:jaykad982@gmail.com">Drop Me A Line</Link></a>
-                        <a className='text-[25px] font-gamify px-6 hover:scale-125 hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="https://www.linkedin.com/in/jay-kadam-27720416a/">LinkedIn</Link></a>
+                        <a className='text-[25px] font-gamify px-6 hover:scale-125 hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="https://www.linkedin.com/in/jayashishkadam/">LinkedIn</Link></a>
                         <a className='text-[25px] font-gamify px-6 hover:scale-125 hover:bg-white hover:text-blue-500 hover:duration-500 py-4 mt-8'><Link to="https://github.com/Jay-A-Kad">Github</Link></a>
                     </div>
                     <a className='flex justify-end mt-10 mr-2 text-[20px] hover:underline hover:duration-500 hover:bg-black hover:text-white' href='/'>| Back to Top | </a>
@@ -186,7 +231,7 @@ const Projects = () => {
                         <h3 className=' text-white flex justify-center items-center text-[20px] lg:text-[40px] ml-2 font-poppins'>2024 Portfolio</h3>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     );
 };

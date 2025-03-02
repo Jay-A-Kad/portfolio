@@ -22,7 +22,7 @@ const Navbar = () => {
 
                 <li className='p-4 ml-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
                     <button>
-                        <a href='CV_Jay Kadam.pdf' download="CV_Jay Kadam.pdf">Resume</a>
+                        <a href='Jay_Kadam_Resume.pdf' download="Jay_Kadam_Resume.pdf">Resume</a>
                     </button>
                 </li>
             </ul>
@@ -53,7 +53,7 @@ const Navbar = () => {
 
                         <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
                             <button>
-                                <a href='CV_Jay Kadam.pdf' download="CV_Jay Kadam.pdf">Resume</a>
+                                <a href='Jay_Kadam_Resume.pdf' download="Jay_Kadam_Resume.pdf">Resume</a>
                             </button>
                         </li>
                     </ul>
