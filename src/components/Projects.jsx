@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 
 const projects = [
+
     {
         title: "Mother 2D-game using Pygame",
         description: "Mother is a 2D horror platformer that blends story-driven dialogue, atmospheric pixel art, and responsive controls into a haunting experience. Players assume the role of a Vile human journeying through an underworld filled with mini-bosses and peculiar NPCs, each encounter revealed through a dynamic conversation engine. Custom-made pixel art, a smooth 60 FPS architecture, and state-driven interactions create a fluid, immersive gameplay loop. As the player struggles to reunite with their mother, every step offers narrative depth and tension, encouraging longer, more engaged play sessions.",
@@ -11,36 +12,63 @@ const projects = [
         bgGradient: "black",
         text1: "white",
         text2: "black",
-        images: [
-            "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
-        code: "https://github.com/Jay-A-Kad/mother",
-        tailer: "https://www.youtube.com/embed/WvCSbRjaGr8"
-    },
-    {
-        title: "Alien Mayhem",
-        description: "In Mayhem, you are humanity’s last line of defense against the relentless Bleep-Bloops, an invasive alien species hellbent on conquering Earth. Armed with an arsenal of high-tech weapons, you’ll blast through waves of extraterrestrial threats in fast-paced, adrenaline-fueled space battles. Navigate asteroid fields, upgrade your gear, and unleash devastating firepower to push back the invasion. As the alien swarm grows stronger, only your skills and strategy can turn the tide. Can you survive the mayhem and save Earth from total annihilation?",
-        tags: ["Unity3D", "Unity Asset Store", "URP", "Physics-Based-Collision"],
-        bgGradient: "white",
-        text1: "black",
-        text2: "white",
-        images: [
-            "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
-        code: "https://github.com/Jay-A-Kad/mother"
+        code: "https://github.com/Jay-A-Kad/Mother-2D-using-pygame",
+        trailer: "https://www.youtube.com/embed/WvCSbRjaGr8?si=bXNHX660Pj3M7-OT"
     },
     {
         title: "Coin Rush: The Demon Curse",
         description: "Coin Rush TDC places you in the role of a once-greedy explorer who stumbles upon a mysterious temple, unknowingly triggering an ancient curse set by a demon thief. Transformed into a beast, you must navigate treacherous ruins, evade deadly traps, and collect mystical gold coins to break the curse. Each coin brings you closer to redemption, but supernatural guardians and dark forces stand in your way. With time running out, only your wit and agility can help you escape your doomed fate. Will you reclaim your humanity or be lost to the temple forever?",
         tags: ["Unity3D", "Unity Asset Store", "Mixamo", "HDRP", "Event-Driven", "Third-Person POV"],
-        bgGradient: "black",
-        text1: "white",
-        text2: "black",
+        bgGradient: "white",
+        text1: "black",
+        text2: "white",
         images: [
             "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
         code: "https://github.com/Jay-A-Kad/CoinRush",
         trailer: "https://www.youtube.com/embed/Je6-MBsY3f8"
     },
+
     {
-        title: "Cel Shading using OpenGL",
+        title: "EmpoCop: Policing with Empathy",
+        description: "EmpoCop: Policing with Empathy is a Unity3D game-in-progress where you play as an officer responding to a 911 call about a home disturbance. Through interactive dialogue with the suspect, your choices are evaluated against key metrics like bias awareness, empathy, de-escalation skills, and community trust. These decisions culminate in a dynamic cutscene that reflects the impact of your approach. Currently under development, EmpoCop: Policing with Empathy is slated for submission to the ACM CHI Play competition.",
+        tags: ["Unity3D", "C#", "Plastic SCM", "Adobe Creative Suite", "MakeHuman", "Unity Asset Store", "Narrative-Driven"],
+        bgGradient: "black",
+        text1: "white",
+        text2: "black",
+        images: [
+            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Screenshot%202024-11-13%20at%201.50.53%E2%80%AFPM.png?raw=true"
+        ],
+        // code: "https://github.com/Jay-A-Kad/Fitme"
+        trailer: "https://www.youtube.com/embed/V74prh-wY0c"
+    },
+    {
+        title: "Alien Showdown: The Global Warfare",
+        description: "The Moon has been overrun by Bleepblops, a swarm of rapidly multiplying alien parasites. If they reach Earth, humanity is doomed. As the last surviving astronaut of Project ExoPurge, you must eradicate the infestation before your oxygen runs out. Armed with a plasma rifle, limited air supply, and a dwindling stock of explosives, you must navigate the lunar surface, sealing off hive clusters and blasting Bleepblops into oblivion. The clock is ticking—can you cleanse the Moon before Earth falls? Survive. Exterminate. Breathe… while you still can.",
+        tags: ["Unity3D", "Unity Asset Store", "HDRP", "Physics-Based-Collision", "Trail-Render Effects"],
+        bgGradient: "white",
+        text1: "black",
+        text2: "white",
+        images: [
+            "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/Alien-Invasion-GW",
+
+
+    },
+    {
+        title: "Alien Showdown: Invasion of Bleep-Blops",
+        description: "You are humanity’s last line of defense against the relentless Bleep-Blops, an invasive alien species hellbent on conquering Earth. Armed with an arsenal of high-tech weapons, you’ll blast through waves of extraterrestrial threats in fast-paced, adrenaline-fueled space battles. Navigate asteroid fields, upgrade your gear, and unleash devastating firepower to push back the invasion. As the alien swarm grows stronger, only your skills and strategy can turn the tide. Can you survive the mayhem and save Earth from total annihilation?",
+        tags: ["Unity3D", "Unity Asset Store", "URP", "Physics-Based-Collision"],
+        bgGradient: "black",
+        text1: "white",
+        text2: "black",
+        images: [
+            "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
+        code: "https://github.com/Jay-A-Kad/alien-invasion-IOBB",
+
+
+    },
+    {
+        title: "Toon Shading using OpenGL",
         description: "The project aims to implement a toon shading (cel shading) technique with a 4-channel stylized highlighting and edge detection, aiming to create visually appealing and illustrative rendering effects for 3D objects such as spheres, torus, and stylized pineapple which are rotating along their axis.",
         tags: ["Unity3D", "Unity Asset Store", "Mixamo", "HDRP", "Event-Driven", "Third-Person POV"],
         bgGradient: "white",
@@ -48,21 +76,9 @@ const projects = [
         text2: "white",
         images: [
             "https://github.com/Jay-A-Kad/mother/blob/master/Game-Description/kadam_game_thumbnail.png?raw=true"],
-        code: "https://github.com/Jay-A-Kad/mother"
+        code: "https://github.com/Jay-A-Kad/Toon-shading-using-OpenGL",
     },
-    {
-        title: "EmpoCop: Policing with Empathy",
-        description: "EmpoCop: Policing with Empathy is a Unity3D game-in-progress where you play as an officer responding to a 911 call about a home disturbance. Through interactive dialogue with the suspect, your choices are evaluated against key metrics like bias awareness, empathy, de-escalation skills, and community trust. These decisions culminate in a dynamic cutscene that reflects the impact of your approach. Currently under development, EmpoCop: Policing with Empathy is slated for submission to the ACM CHI Play competition.",
-        tags: ["Unity3D", "C#", "Plastic SCM", "Adobe Creative Suite", "MakeHuman", "Unity Asset Store", "Narrative-Driven"],
-        bgGradient: "white",
-        text1: "black",
-        text2: "white",
-        images: [
-            "https://github.com/Jay-A-Kad/my-website-2024/blob/master/public/Screenshot%202024-11-13%20at%201.50.53%E2%80%AFPM.png?raw=true"
-        ],
-        // code: "https://github.com/Jay-A-Kad/Fitme"
-        trailer: "https://www.youtube.com/embed/V74prh-wY0c"
-    },
+
     {
         title: "Space Invader using Pygame",
         description: "Space Invader is a classic, pioneering fixed shooter game first released by Taito in 1978. Building on the original template, this version—created with the Pygame module—puts you in the role of a lone space soldier defending Earth against relentless waves of alien invaders. Your mission is to move your ship horizontally, dodge incoming fire, and strategically shoot down the oncoming extraterrestrial forces before they reach the planet’s surface. The game emphasizes timing, precision, and quick reflexes, capturing the timeless arcade spirit of the original.",
@@ -191,12 +207,12 @@ const Projects = () => {
                                 </button>
                             </div>
                             {/* <div className="absolute transform -translate-x-10 -translate-y-40 lg:-translate-x-10 lg:-translate-y-72">
-                                {project.images.map((image, imgIndex) => (
-                                    <div key={imgIndex} className="w-40 h-40 lg:w-96 lg:h-96 rounded-full overflow-hidden relative">
-                                        <img src={image} alt={`Project ${index + 1} Image ${imgIndex + 1}`} className="object-cover w-full h-full rounded-full" />
-                                    </div>
-                                ))}
-                            </div> */}
+                                    {project.images.map((image, imgIndex) => (
+                                        <div key={imgIndex} className="w-40 h-40 lg:w-96 lg:h-96 rounded-full overflow-hidden relative">
+                                            <img src={image} alt={`Project ${index + 1} Image ${imgIndex + 1}`} className="object-cover w-full h-full rounded-full" />
+                                        </div>
+                                    ))}
+                                </div> */}
                         </div>
                         {project.trailer && (
                             <div className="w-full flex justify-center mt-10 mr-10">

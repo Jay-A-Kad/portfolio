@@ -3,6 +3,7 @@ import { RiMenu4Line } from 'react-icons/ri';
 import { AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleNav = () => {
@@ -10,15 +11,11 @@ const Navbar = () => {
     };
 
     return (
-        <div className='flex justify-between items-center h-20 lg:h-[160px] mx-auto px-4 z-50 relative'>
-            <h1 className='text-[20px] lg:text-[65px] font-bold bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent'>
+        <div className='flex justify-between items-center h-15 lg:h-[120px] mx-auto px-4 z-50 relative'>
+            <h1 className='text-[20px] lg:text-[50px] font-bold bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent'>
                 <Link to="/">Jay Kadam.</Link>
             </h1>
-            <ul className='hidden lg:flex lg:text-[30px] font-poppins'>
-
-                <li className='p-4 mx-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
-                    <Link to="/projects">Projects</Link>
-                </li>
+            <ul className='hidden lg:flex lg:text-[25px] font-poppins'>
 
                 <li className='p-4 ml-10 hover:bg-black hover:text-white duration-500 hover:scale-110'>
                     <button>
@@ -27,12 +24,12 @@ const Navbar = () => {
                 </li>
             </ul>
             <ul className='hidden lg:inline'>
-                <li className='lg:text-[30px] font-poppins'>Status:</li>
-                <li className='font-lora text-[20px]'>Available for internships</li>
+                <li className='lg:text-[20px] font-poppins'>Status:</li>
+                <li className='font-lora text-[18px]'>Open for Game Development Opportunities</li>
             </ul>
             <ul className='hidden lg:inline'>
-                <li className='lg:text-[30px] font-poppins px-10'>Location:</li>
-                <li className='px-10 font-lora text-[20px]'>Clemson, SC</li>
+                <li className='lg:text-[20px] font-poppins px-10'>Location:</li>
+                <li className='px-10 font-lora text-[18px]'>Clemson, SC</li>
             </ul>
             <div onClick={handleNav} className='block md:hidden'>
                 {!nav ? <RiMenu4Line size={40} /> : <AiOutlineClose size={40} />}
@@ -45,10 +42,6 @@ const Navbar = () => {
                     <ul className='ml-4 uppercase ease-in-out duration-800 mt-20'>
                         <li className='p-4 border-b font-poppins hover:bg-black hover:text-white duration-500 hover:scale-95'>
                             <Link to="/" onClick={handleNav}>Home</Link>
-                        </li>
-
-                        <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
-                            <Link to="/projects" onClick={handleNav}>Projects</Link>
                         </li>
 
                         <li className='p-4 border-b hover:bg-black hover:text-white duration-500 font-poppins hover:scale-95'>
@@ -73,7 +66,10 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
+
         </div>
+
+
     );
 };
 
