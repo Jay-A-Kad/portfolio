@@ -98,7 +98,7 @@ const Hero = () => {
                         {
                             title: "Mother 2D-game using Pygame",
                             description: "Mother is a 2D horror platformer combining story-rich dialogue, atmospheric pixel art, and responsive controls.",
-                            image: "https://via.placeholder.com/200x120?text=Mother+Game",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/mother.png?raw=true",
                             github: "https://github.com/Jay-A-Kad/VirtualHumanProject",
                             demo: "https://www.youtube.com/watch?v=WvCSbRjaGr8",
                             tags: ["Pygame", "LibreSprite", "Narrative Design"]
@@ -106,7 +106,7 @@ const Hero = () => {
                         {
                             title: "Lazy Light Generator for Unity3D",
                             description: "A Unity Editor tool for automatic light placement using Poisson sampling and scene geometry awareness.",
-                            image: "https://via.placeholder.com/200x120?text=Lazy+Light",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/lazylight.png?raw=true",
                             github: "https://github.com/Jay-A-Kad/LazyLightPackage",
                             demo: "",
                             tags: ["Unity Editor Tool", "Procedural Lighting", "Poisson Disk"]
@@ -122,7 +122,7 @@ const Hero = () => {
                         {
                             title: "Coin Rush: The Demon Curse",
                             description: "Coin Rush TDC, where a cursed explorer, transformed into a beast, must navigate a trap-filled temple and collect mystical coins to break the spell. As dark forces close in, every coin brings you closer to redemption or eternal doom.",
-                            image: "https://via.placeholder.com/200x120?text=City+Generator",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/Screenshot%202025-06-08%20at%206.56.04%E2%80%AFPM.png?raw=true",
                             github: "https://github.com/Jay-A-Kad/CoinRush",
                             demo: "https://www.youtube.com/watch?v=Je6-MBsY3f8",
                             tags: ["Unity3D", "Mixamo", "HDRP", "Event-Driven", "Third-Person POV"]
@@ -130,7 +130,7 @@ const Hero = () => {
                         {
                             title: "Toon Shading using OpenGL",
                             description: "The project aims to implement a cel shading technique with a 4-channel stylized highlighting and edge detection, aiming to create visually appealing and illustrative rendering effects for 3D objects such as spheres, torus, and stylized pineapple which are rotating along their axis",
-                            image: "https://via.placeholder.com/200x120?text=Speech+Therapy",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/toonshader.png?raw=true",
                             github: "https://github.com/Jay-A-Kad/Toon-shading-using-OpenGL",
                             demo: "",
                             tags: ["Computer Graphics", "OpenGL", "HLSL"]
@@ -138,7 +138,7 @@ const Hero = () => {
                         {
                             title: "SuperMarket Navigation",
                             description: "This mobile app simulates a virtual superstore with sections for groceries, clothing, and electronics. Users sign in via Firebase, add items to their cart, and are guided through the store using an A* algorithm for optimal pathfinding creating an efficient, immersive shopping experience",
-                            image: "https://via.placeholder.com/200x120?text=Narrative+Engine",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/supermarket-navigation-2.png?raw=true",
                             github: "https://github.com/Jay-A-Kad/SuperMarket-Navigation-User-App",
                             demo: "",
                             tags: ["Java", "JS", "Firebase", "Android Studio", "Unity3D", "Path-Finding"]
@@ -153,6 +153,7 @@ const Hero = () => {
                         {
                             title: "Alien Showdown: Invasion of Bleep-Blops",
                             description: "Defend Earth from the relentless Bleep-Blops in this fast-paced space shooter. Battle alien swarms, navigate asteroid fields, and upgrade your arsenal to survive. Only your skill and strategy can stop the invasion and save humanity.",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/Screenshot%202025-06-08%20at%206.55.26%E2%80%AFPM.png?raw=true",
                             github: "https://github.com/Jay-A-Kad/alien-invasion-IOBB",
                             demo: "",
                             tags: ["Unity3D", "URP", "Unity Asset Store", "Game Physics"]
@@ -184,7 +185,7 @@ const Hero = () => {
                         {
                             title: "Retro Snake Using Js",
                             description: "A nostalgic Snake game with a retro background where a pixelated serpent grows with each meal. Simple mechanics and classic visuals capture the charm of the original arcade experience.",
-                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/Retro-Snake.gif?raw=true",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/Retro-Snake.gif?raw=true",
                             github: "https://github.com/Jay-A-Kad/retro-snake",
                             demo: "",
                             tags: ["HTML5", "CSS3", "JS"]
