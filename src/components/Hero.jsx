@@ -43,13 +43,13 @@ const Hero = () => {
                     <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6 py-10">
                         <h2 className="text-2xl sm:text-2xl lg:text-4xl font-bold font-poppins">About Me</h2>
                         <p className="text-base sm:text-lg lg:text-xl font-poppins leading-relaxed">
-                            I’m a game developer passionate about crafting interactive stories and immersive digital experiences—whether through games, XR, or embodied conversational agents (ECA)
+                            I’m a game developer passionate about crafting interactive stories and immersive digital experiences, whether through games, XR, or embodied conversational agents (ECA)
                         </p>
                         <p className="text-base sm:text-lg lg:text-xl font-poppins leading-relaxed">
-                            Currently, I’m pursuing an M.S. in Computer Science with a specialization in Visual Computing at Clemson University 🎓, where I work as a Research Assistant at the Synthetic Personas Research Lab, designing intelligent virtual humans. I’m also a member of the university’s Game Development Club, where I collaborate on innovative gameplay concepts and prototypes
+                            Currently, I’m pursuing an M.S. in Computer Science with a specialization in Visual Computing at Clemson University, where I work as a Research Assistant at the Synthetic Personas Research Lab, designing intelligent virtual humans. I’m also a member of the university’s Game Development Club, where I collaborate on innovative gameplay concepts and prototypes
                         </p>
                         <p className="text-base sm:text-lg lg:text-xl font-poppins leading-relaxed">
-                            When I am not Programming, I enjoy building narrative-driven game worlds, hiking 🏞️, playing table tennis 🏓
+                            When I am not Programming, I enjoy building narrative-driven game worlds, hiking, playing table tennis
                         </p>
                     </div>
 
@@ -91,15 +91,16 @@ const Hero = () => {
             </section>
 
 
-            {<div className="w-full bg-gray-100 px-6 lg:px-20 py-20">
-                <h2 className="text-3xl lg:text-6xl font-bold text-center mb-20 font-poppins">Projects.</h2>
+            {<div className="w-full bg-gradient-to-r from-orange-500 to-amber-300 px-6 lg:px-20 py-20">
+
+                <h2 className="text-3xl lg:text-6xl font-bold text-center mb-20 font-gamify">Projects.</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {[
                         {
                             title: "Mother 2D-game using Pygame",
                             description: "Mother is a 2D horror platformer combining story-rich dialogue, atmospheric pixel art, and responsive controls.",
                             image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/mother.png?raw=true",
-                            github: "https://github.com/Jay-A-Kad/VirtualHumanProject",
+                            github: "https://github.com/Jay-A-Kad/Mother-2D-using-pygame",
                             demo: "https://www.youtube.com/watch?v=WvCSbRjaGr8",
                             tags: ["Pygame", "LibreSprite", "Narrative Design"]
                         },
@@ -114,7 +115,7 @@ const Hero = () => {
                         {
                             title: "EmpoCop: Policing with Empathy",
                             description: "EmpoCop: Policing with Empathy is a Unity3D game-in-progress where you play as an officer responding to a home disturbance. Your dialogue choices affect metrics like empathy, bias, and community trust, leading to a dynamic cutscene that reflects your approach.",
-                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/Screenshot%202024-11-13%20at%201.50.53%E2%80%AFPM.png?raw=true",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/empocop.png?raw=true",
                             github: "",
                             demo: "https://www.youtube.com/watch?v=V74prh-wY0c",
                             tags: ["Unity3D", "Plastic SCM", "MakeHuman", "Narrative-Driven"]
@@ -146,6 +147,7 @@ const Hero = () => {
                         {
                             title: "Alien Showdown: The Global Warfare",
                             description: "The Moon is infested with Bleepblops an alien parasites threatening Earth. As the last astronaut of Project ExoPurge, you must destroy the hives before your oxygen runs out. Armed with a plasma rifle and limited supplies, it’s a race to cleanse the Moon and save humanity",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/8e905960-5897-4b2d-ad6c-45da31e79e8b.jpeg?raw=true",
                             github: "https://github.com/Jay-A-Kad/Alien-Invasion-GW",
                             demo: "",
                             tags: ["Unity3D", "HDRP", "Unity Asset Store", "Game Physics", "Trail-Rendering"]
@@ -161,7 +163,7 @@ const Hero = () => {
                         {
                             title: "Space Invader using Pygame",
                             description: "Space Invader, built with Pygame, is a modern take on the 1978 arcade classic. As a lone space soldier, you dodge enemy fire and shoot down waves of aliens before they reach Earth—blending timeless gameplay with fast-paced action.",
-                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/93020256-0b30-4ef1-ae1a-db4fc618933f.jpeg?raw=true",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/93020256-0b30-4ef1-ae1a-db4fc618933f.jpeg?raw=true",
                             github: "https://github.com/Jay-A-Kad/spaceInvader",
                             demo: "",
                             tags: ["Python", "Pygame"]
@@ -169,7 +171,7 @@ const Hero = () => {
                         {
                             title: "PiRockPaperScissors",
                             description: "Experience the timeless game of Rock-Paper-Scissors on your Raspberry Pi, enhanced with machine learning. By harnessing camera input and classification algorithms, the system recognizes your hand gestures and responds accordingly, creating a dynamic, interactive twist on the classic showdown",
-                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/6472b524-1e53-4493-a30f-e3382641d192.jpeg?raw=true",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/rockpaperscissors.jpg?raw=true",
                             github: "https://github.com/Jay-A-Kad/PiRockPaperScissors",
                             demo: "",
                             tags: ["Python", "Numpy", "CNN", "CV", "ML"]
@@ -177,8 +179,8 @@ const Hero = () => {
                         {
                             title: "Detecting Faces using HaarCacades",
                             description: "This Python project uses OpenCV and Haar cascades to detect faces in images, outlining each with a green rectangle ideal for basic computer vision tasks",
-                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/Detected-face.png?raw=true",
-                            github: "https://github.com/Jay-A-Kad/spaceInvader",
+                            image: "https://github.com/Jay-A-Kad/portfolio/blob/master/public/project-images/Detected-face.png?raw=true",
+                            github: "https://github.com/Jay-A-Kad/detecting_faces_using_haarcascades",
                             demo: "",
                             tags: ["Python", "OpenCV", "Face Detection"]
                         },
